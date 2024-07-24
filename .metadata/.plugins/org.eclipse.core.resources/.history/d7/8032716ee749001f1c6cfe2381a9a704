@@ -1,0 +1,19 @@
+package com.projetoSpring.userdept.controllers;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.projetoSpring.userdept.entities.User;
+import com.projetoSpring.userdept.repositories.UserReposity;
+
+@RestController
+@RequestMapping(value = "/users")
+public class UserControler {
+	
+	private UserReposity reposity;
+	public List<User> findAll(){
+		
+	}
+}

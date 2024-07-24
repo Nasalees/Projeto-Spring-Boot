@@ -1,0 +1,29 @@
+package com.projetoSpring.userdept.entities;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "tb_department")
+public class Department {
+	private Long id;
+	private String name;
+	
+	public Department() {
+		
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public long getId() {
+		return this.id;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+}

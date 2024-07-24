@@ -1,0 +1,7 @@
+INSERT INTO tb_department(name) VALUES ('Gestão de empresas');
+INSERT INTO tb_department(name) VALUES ('Informática TI');
+
+INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Júlia', 'julia@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (1, 'Mabel', 'mabel@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Ikaro', 'ikaro@gmail.com');
+INSERT INTO tb_user(department_id, name, email) VALUES (2, 'Miguel', 'miguel@gmail.com');

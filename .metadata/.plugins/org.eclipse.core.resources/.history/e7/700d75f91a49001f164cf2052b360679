@@ -1,0 +1,11 @@
+package com.projetoSpring.userdept.entities;
+
+public class User {
+	private long id;
+	private String name;
+	private String email;
+	
+	public User() {
+		
+	}
+}

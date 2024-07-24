@@ -1,0 +1,5 @@
+package com.projetoSpring.userdept.entities;
+
+public class Department {
+
+}

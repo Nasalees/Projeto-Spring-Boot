@@ -1,0 +1,39 @@
+package com.projetoSpring.userdept.entities;
+
+
+
+public class User {
+	private long id;
+	private String name;
+	private String email;
+	
+	//Fazendo a associação entre classes(entendidades)
+	//Ou seja, cada class instanciada na minha class User,
+	//também terá um atribudo do tipo Department, e com isso estou
+	//criando uma associação entre as entidades(class).
+	
+	private Department department;
+	
+	public User() {
+		
+	}
+	
+	public void setID(long id) {
+		this.id = id;
+	}
+	public long getId() {
+		return this.id;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getName() {
+		return this.name;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getEmail() {
+		return this.email;
+	}
+}
