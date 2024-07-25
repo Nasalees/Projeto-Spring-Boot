@@ -17,7 +17,7 @@ Criar uma API para gerenciar usuários e departamentos, com as seguintes funçõ
 ![classes_do_projeto](https://github.com/user-attachments/assets/c62a3777-abc9-4818-8256-28552c84656d)
 
 ### 3.Para realizar o mapeamento objeto-relacional, anotei as classes com @Entity, indicando ao JPA que os objetos dessas classes devem ser persistidos no banco de dados. Através da anotação @Table, especifiquei o nome das tabelas correspondentes a cada entidade. As relações entre as entidades foram modeladas utilizando a anotação @ManyToOne, estabelecendo relacionamentos do tipo "muitos para um". o @Id foi usado para definir a chave primária. A geração de chaves primárias foi configurada automaticamente com a anotação @GeneratedValue.
-![mapeamento objeto_relacional](https://github.com/user-attachments/assets/58928da7-bdc3-489c-9a3a-734aa1a5285d)
+<img height="470em" src="https://github.com/user-attachments/assets/58928da7-bdc3-489c-9a3a-734aa1a5285d"/><br>
 
 ### 4.Configurei o banco de dados H2 no arquivo application.properties e realizei testes de inserção de dados através do script import.sql, verificando a criação das tabelas e a inserção dos dados.
 <img height="330em" src="https://github.com/user-attachments/assets/25d6c297-79b9-4716-9beb-fc2851f1ffc3"/><br>
