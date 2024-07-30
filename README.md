@@ -1,6 +1,6 @@
 # Projeto JAVA e SpringBoot
 
-### Através deste projeto, busco solidificar minha base em Java e Spring Boot. Pretendo explorar a fundo recursos como Spring Data Jpa, Mapeamento objeto - relacional, H2 DataBase, visando desenvolver aplicações web robustas e escaláveis.
+Através deste projeto, busco solidificar minha base em Java e Spring Boot. Pretendo explorar a fundo recursos como Spring Data Jpa, Mapeamento objeto - relacional, H2 DataBase, visando desenvolver aplicações web robustas e escaláveis.
 
 ## Visão geral do sistema
 
