@@ -24,4 +24,17 @@ Criar uma API para gerenciar usuários e departamentos, com as seguintes funçõ
 ![tebelas_criadas](https://github.com/user-attachments/assets/304fb154-b9eb-4ad1-bbca-0f1d6626a877)
 <img height="100em" src="https://github.com/user-attachments/assets/25a174fc-2c3e-4b68-848e-70067ec899c8"/><br>
 
+### 5.Para criar os endpoints da minha aplicação, aproveitei as funcionalidades prontas do Spring Data JPA, utilizando a interface JpaRepository. Isso me permitiu herdar métodos como findAll(), findById() e save(), simplificando a implementação das operações CRUD (Create, Read, Update, Delete).
+
+### Organizei meus controladores em um pacote específico (Controller) para manter a estrutura do projeto clara e facilitar a manutenção. Com a anotação @RestController, transformei essas classes em controladores REST, permitindo que elas respondam a requisições HTTP e retornem dados em formato JSON.
+
+### Utilizei o Postman para testar as APIs que desenvolvi. Essa ferramenta me ajudou a verificar se cada endpoint estava funcionando corretamente, retornando os dados esperados e respondendo adequadamente aos diferentes tipos de requisições GET e POST.
+#### Endpoints:
+<img height="550em" src="https://github.com/user-attachments/assets/5f254265-34ec-4f9b-80a8-27c6b5ce2747"/><br>
+#### Inserir Usuários:
+<img height="816em" src="https://github.com/user-attachments/assets/eb7ca3ea-7c5e-405f-9536-bae661c88aff"/><br>
+#### Lista de Usuários:
+<img height="830em" src="https://github.com/user-attachments/assets/e348f182-e01f-4741-b089-4908cfddba43"/><br>
+#### Buscar Usuário pelo ID:
+<img height="853em" src="https://github.com/user-attachments/assets/f3fcf09d-6e82-4ab8-a837-2da579ea66e8"/><br>
 
